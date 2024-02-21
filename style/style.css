@@ -1,0 +1,154 @@
+*{
+    font-family: "Meiryo";
+    color: #383E45;
+}
+
+a{
+    text-decoration: none;
+    color: #24292E;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 0 4%;
+}
+
+.header-logo{
+    width: 120px;
+    height: 40px;
+}
+
+.header-nav{
+    font-size: 14.4px;
+}
+
+.header-about{
+    margin-right: 33px;
+}
+
+.main-visual{
+    margin-bottom: 89px;
+}
+
+.main-img{
+    height: 600px;
+    object-fit: cover;
+}
+
+.about{
+    width: 530px;
+    margin: 0 auto 105px;
+}
+
+.about h2{
+    width: 120px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: #383E45;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #383E45;
+    margin-bottom: 82px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.about-name{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.about-text{
+    font-size: 14.4px;
+}
+
+.bicycle{
+    margin-bottom: 117px;
+}
+
+.bicycle h2{
+    width: 120px;
+    margin: 0 auto 60px;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: #383E45;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #383E45;
+}
+
+.bicycle-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16.2px;
+    text-align: center;
+}
+
+.bicycle-img-wrapper{
+    width: 262.8px;
+    height: 174px;
+    margin-bottom: 13px;
+    font-size: 16px;
+}
+
+.bicyle-img-title{
+    margin-bottom: 17px;
+    font-size: 16px;
+}
+
+.bicyle-img-text{
+    font-size: 14.4px;
+}
+
+footer{
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .about, .bicycle{
+        margin: 0 15px;
+    }
+
+    .about{
+        width: auto;
+    }
+
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bicycle-images{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bicycle-img-wrapper{
+        width: auto;
+        height: auto;
+    }
+}
