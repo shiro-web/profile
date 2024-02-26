@@ -14,11 +14,11 @@ img{
 
 header{
     display: flex;
-    height: 60px;
     justify-content: space-between;
+    padding: 0 4%;
+    height: 60px;
     background-color: #FFFFFF;
     align-items: center;
-    padding: 0 4%;
 }
 
 .header-logo{
@@ -34,14 +34,15 @@ header{
     margin-right: 33px;
 }
 
-.main-visual{
-    margin-bottom: 89px;
-}
-
 .main-img{
     height: 600px;
     object-fit: cover;
 }
+
+.main-visual{
+    margin-bottom: 89px;
+}
+
 
 .about{
     width: 530px;
